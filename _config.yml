@@ -11,11 +11,11 @@ inc:
   facebook:     laurencstill
   twitter:      laurencstill
   gplus:        '+LaurenStill'
-  about_link:   https://teamfloriduh.com/about/
+  about_link:   https://teamflorida.com/about/
   
   # Product Information
-  product_link: http://app.teamfloriduh.com/
-  tagline:      "Something about CMS data exploration..."
+  product_link: http://teamfloriduh.com/app
+  tagline:      "Something about CMS data and health stuff..."
   
   # Comments
   disqus:

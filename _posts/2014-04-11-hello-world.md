@@ -2,41 +2,40 @@
 layout: post
 
 title: Hello World!
-subtitle: "What's in the box"
+subtitle: "What's brewing... "
 cover_image: blog-cover.jpg
 
-excerpt: "Something about our entry into the 2014 HDP Code-a-thon or something"
+excerpt: "Something about that start of TeamFloriduh and the unique problems, and what the other 49 can learn. Or something"
 
 author:
   name: Lauren Still
   twitter: laurencstill
-  gplus: +laurenstill 
-  bio: Co-founder, Design
+  gplus: +LaurenStill 
+  bio: Co-founder
   image: ks.png
 ---
 
-Incorporated provides a great typography, responsive design, author details, semantic markup and more.
-
-You can set customize post covers, and other things directly in the post front matter:
+Starting to put together team branding material, and the backbone for our app packaging.  More to come.  Keeping this here for a reminder for later... 
 
 {% highlight yaml %}
 layout: post
 
-title: Jekyll Incorporated Features
-subtitle: "What's in the box"
+title: Hello World!
+subtitle: "What's brewing..."
 
 # Setup post cover image in /images/
 cover_image: blog-cover.jpg
 
-excerpt: "Incorporated provides a great typography, responsive design, author details, semantic markup and more."
+excerpt: "Something about that start of TeamFloriduh and the unique problems, and what the other 49 can learn. Or something"
+
 
 # Author details, including Google Plus authorship
 author:
-  name: Karri Saarinen
-  twitter: karrisaarinen
-  gplus: 100687498195339762535 
-  bio: Co-founder, Design
-  image: ks.jpg
+  name: Lauren Still
+  twitter: laurencstill
+  gplus: +LaurenStill 
+  bio: Co-founder
+  image: ks.png
   
 # Keep it as draft, not published in index.html or feed.xml
 draft: false
@@ -63,20 +62,20 @@ config.yml:
 {% highlight yaml %}
 inc:
   # Blog Information
-  title:        "Jekyll Incorporated"
-  subtitle:     "Modern Jekyll based blog for companies"
+  title:        "Hello World!"
+  subtitle:     "What's brewing..."
   cover_image:  blog-cover.jpg
   
   # Company information
-  company:      Incorporated
-  url:          http://incorporated.sendtoinc.com/
-  facebook:     sendtoinc
-  twitter:      sendtoinc
-  about_link:   https://sendtoinc.com/about/
+  company:      TeamFloriduh
+  url:          http://teamfloriduh.com
+  facebook:     laurencstill
+  twitter:      laurencstill
+  about_link:   https://teamfloriduh.com
   
   # Product Information
-  product_link: http://incorporated.sendtoinc.com/
-  tagline:      "Get a modern blog for your company"
+  product_link: http://teamfloriduh.com/app
+  tagline:      "Here's my number, call me maybe.."
   
   # Comments
   disqus:
