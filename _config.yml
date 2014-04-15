@@ -9,12 +9,12 @@ inc:
   company:      TeamFloriduh
   url:          http://teamfloriduh.com
   facebook:     laurencstill
-  twitter:      laurencstill
+  twitter:      TeamFloriduh
   gplus:        '+LaurenStill'
-  about_link:   https://teamflorida.com/about/
+  about_link:   0.0.0.0:4000/about/
   
   # Product Information
-  product_link: http://teamfloriduh.com/app
+  product_link: 0.0.0.0:4000/app
   tagline:      "Something about CMS data and health stuff..."
   
   # Comments
@@ -24,7 +24,7 @@ inc:
   
   # Sharing settings
   sharing:
-    twitter:    false
+    twitter:    true
     facebook:   false
     gplus:      false
     hn:         false

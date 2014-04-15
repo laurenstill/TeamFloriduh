@@ -4,104 +4,47 @@ layout: post
 title: Hello World!
 subtitle: "What's brewing... "
 cover_image: blog-cover.jpg
+date: 2014-04-08
 
-excerpt: "Something about that start of TeamFloriduh and the unique problems, and what the other 49 can learn. Or something"
+excerpt: "The start of #TeamFloriduh and an overview the unique problems faced by the home state of the world's worst superhero.  TL;DR Diabetes, Golf and Medicare."
 
 author:
   name: Lauren Still
   twitter: laurencstill
   gplus: +LaurenStill 
-  bio: Co-founder
-  image: ks.png
+  bio: Collaborator
+  image: ls.png
 ---
 
-Starting to put together team branding material, and the backbone for our app packaging.  More to come.  Keeping this here for a reminder for later... 
+The 2014 <a href="http://www.healthdataconsortium.org/">HealthDataConsortium's</a> HealthDataPalooza is this June in DC, and the Code-a-thon was launched last with week.  This year <a href="http://www.healthdataconsortium.org/challenges/announcing-the-code-a-palooza-challenge-at-health-datapalooza-2014">the focus</a> is on how independant developers can leverage the massive <a href="https://www.cms.gov/Research-Statistics-Data-and-Systems/Statistics-Trends-and-Reports/Medicare-Provider-Charge-Data/Physician-and-Other-Supplier.html">CMS patient claims and physician reimbursement data</a> recently released.
 
-{% highlight yaml %}
-layout: post
+Already many journalists and <a href="http://omni.docgraph.org/">health data junkies</a> have already started pouring through the nearly 9 million records looking for trends and insights that may benefit patients, payers and providers alike.  
 
-title: Hello World!
-subtitle: "What's brewing..."
+So it's official, I have started a team as well and we are beginning to kick around ideas, looking at data sets and talking logistics.  Transparency is the name of the game, so I'll be writing when I can about our experiences, insights, questions, tools, technology, and well, everything.  I'm particularly excited for the technical journey, and documenting that as much as possible so others may follow our path.
 
-# Setup post cover image in /images/
-cover_image: blog-cover.jpg
+We have a few goals in mind, beyond pure health data discovery:
 
-excerpt: "Something about that start of TeamFloriduh and the unique problems, and what the other 49 can learn. Or something"
+1. Have Fun:  It's important to show others, especially non-health-data-geeks that this can be an enjoyable initiative. Yes, we nerd out, but it's not all TNG and pizza. 
+
+2. Be Democratic: Also important is educating others that this can be done by normal people.  We are not professional programmers exactly, but we do have a vested interest in data. We feel it's important to highlight that together our different backgrounds can create a whole greater than the sum of our parts, and that the tools to accomplish this are widely available to the greater public.
+
+3. Learn Something: Me?  I need to brush up on R, and webdev.  Nick is a complete newb to the healthcare scene.  Mandi is looking forward to technical nuts and bolts. We all have vastly different backgrounds and talents, and it will be interesting to feed off of each other.
+
+4. Win Big: Let's be honest, now, it's crossed our mind.
+
+Beyond this, we are pretty open.  There's a lot to discover, and we will take the next two weeks kicking around broad hypothesis before narrowing things down for a formal proposal.  
+
+I will try to expand more on our team, and what everyone brings to the table, but for now:
 
 
-# Author details, including Google Plus authorship
-author:
-  name: Lauren Still
-  twitter: laurencstill
-  gplus: +LaurenStill 
-  bio: Co-founder
-  image: ks.png
-  
-# Keep it as draft, not published in index.html or feed.xml
-draft: false
-{% endhighlight %}
+<div align="center">
 
-#### Configurable & Code Snipped Highlighting
+<img src="/images/mandi.jpg"><p><h4>Mandi Bishop</h4></p><p>A hardcore data geek with a Masters from FSU, and a passion for analytics, Mandi fell in love with BASIC and her PCjr early on. She continues to be a patient engagement advocate, health IT innovator and dreamer. Mandi is currently in Jacksonville, Florida. </p>
 
-/assets/stylesheets/main.scss:
-{% highlight scss %}
+<img src="/images/nick.jpg"><p><h4>Nick Kypreos</h4></p><p>A music school dropout, Nick pursued a PhD in Physics from UF. Eventually working as a data scientist with CERN, Microsoft and Amazon, he now hacks on challenging data sets. For fun. In R. Nick is currently in Seattle, Washington. </p>
 
-/* Bodytext font */
-$font: "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-
-/* Font for headings */
-$fontheadings: "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-
-/* Text colors */
-$text: #21272d;
-$textmuted: #848484;
-$accent: #2077b2;    
-{% endhighlight %}
-
-config.yml:
-{% highlight yaml %}
-inc:
-  # Blog Information
-  title:        "Hello World!"
-  subtitle:     "What's brewing..."
-  cover_image:  blog-cover.jpg
-  
-  # Company information
-  company:      TeamFloriduh
-  url:          http://teamfloriduh.com
-  facebook:     laurencstill
-  twitter:      laurencstill
-  about_link:   https://teamfloriduh.com
-  
-  # Product Information
-  product_link: http://teamfloriduh.com/app
-  tagline:      "Here's my number, call me maybe.."
-  
-  # Comments
-  disqus:
-    # Eg. "exampleblog" Set to false to disable comments
-    shortname:  false
-  
-  
-  # Sharing settings
-  sharing:
-    twitter:    false
-    facebook:   false
-    gplus:      false
-    hn:         false
-    
-  
- # Analytics     
-  analytics:
-    google: 
-      # eg. 'UA-123-12'
-      id:       false    
-{% endhighlight %}
-
-**Zoomable images**
-<div class="full zoomable"><img src="/images/incorporated.jpg"></div>
-
-**Awesome quotes**
-> “Effective companies tend to communicate more, their people are curious and they have opinions”
-
-Stay tuned for updates.
+<img src="/images/lauren.jpg"><p><h4>Lauren Still</h4></p><p>Jack of all trades, master of some, Lauren is a health IT generalist. Currently handling all things policy related for DICOMGrid, she fills her days talking to compliancy cats and avoiding picture opportunities. Lauren is currently in San Francisco, California.</p>
+</div>
+<hr>
+<hr>
+“Remember, kids in the backseat cause accidents; accidents in the backseat cause kids.” -Jack Handy

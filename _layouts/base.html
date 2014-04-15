@@ -6,8 +6,7 @@
     <title>{% if page.title %}{{ page.title }} &mdash; {{ site.inc.title }}{% else %}{{ site.inc.title }} &mdash; {{ site.inc.subtitle }}{% endif %}</title>
 
 
-
-<{% if site.inc.google_font %}<link href="https://fonts.googleapis.com/css?family={{ site.inc.google_font }}" rel="stylesheet" type="text/css">{% endif %}
+    {% if site.inc.google_font %}<link href="https://fonts.googleapis.com/css?family={{ site.inc.google_font }}" rel="stylesheet" type="text/css">{% endif %}
     {% stylesheet main %}
 
 
@@ -35,6 +34,8 @@
 </head>
 <body>
     
+
+
 <section class="site-nav">
     <header>
         <nav id="navigation">
@@ -42,12 +43,19 @@
                 <img src="/images/{{ site.inc.logo }}" alt="Inc">
             </a>
             <a href="/" class="home">Blog</a>
-            {% if site.inc.about_link %}<a href="{{ site.inc.about_link }}">Team</a>{% endif %}
-            {% if site.inc.product_link %}<a href="{{ site.inc.product_link }}">App</a>{% endif %}
+            <a href="/app" class="app">Workbench</a>
+            <a href="/about" class="about">Team</a>
+
+           <!-- {% if site.inc.product_link %}<a href="{{ site.inc.product_link }}">App</a>{% endif %}
+            {% if site.inc.about_link %}<a href="{{ site.inc.about_link }}">About</a>{% endif %} -->
         </nav>
+
+
         {% if site.inc.tagline or site.inc.product_url %}<nav class="tagline">
             {% if site.inc.tagline %}<span>{{ site.inc.tagline }}</span>{% endif %}
-            {% if site.inc.product_link %}<a href="{{ site.inc.product_link }}" class="btn btn-outline">Learn More</a>{% endif %}
+            {% if site.inc.product_link %}
+
+            <a href="http://healthdatapalooza.org/get-involved/code-a-palooza-at-health-datapalooza-2014/" class="btn btn-outline">About HDP</a>{% endif %}
         </nav>{% endif %}
     </header>
 </section>
@@ -56,27 +64,17 @@
 
 <footer class="site-footer">
     <div class="container">
-        &copy; {{ site.time | date: "%Y" }} 
-        
-        <nav>
-            <a href="{{ site.inc.url }}">{{ site.inc.company }}</a> &middot;
+        &copy; 2014 TeamFloriduh
+
             <a href="/">Blog</a> &middot;
-            {% if site.inc.about_link %}<a href="{{ site.inc.about_link }}">Team</a>{% endif %} &middot;
-             {% if site.inc.product_link %}<a href="{{ site.inc.product_link }}">App</a> {% endif %}
-        </nav>
+            <a href="/app">Workbench</a> &middot;
+            <a href="/about">About</a>
         
         <nav class="social">
-            {% if site.inc.twitter %}
-            <a href="https://twitter.com/{{ site.inc.twitter }}" title="Follow on Twitter" target="_blank"><i class="icon icon-twitter black"></i></a>
-            {% endif %}
-            {% if site.inc.facebook %}
-            <a href="http://facebook.com/{{ site.inc.facebook }}" title="Follow on Facebook" target="_blank"><i class="icon icon-facebook black"></i></a>
-            {% endif %}    
-            <a href="/feed.xml" title="RSS Feed">
-                <i class="icon icon-rss black"></i>
-            </a>
+            <a href="https://twitter.com/teamfloriduh" title="Follow on Twitter" target="_blank"><i class="icon icon-twitter black"></i></a>
+            <a href="http://facebook.com/laurencstill" title="Follow on Facebook" target="_blank"><i class="icon icon-facebook black"></i></a>  
+            <a href="/feed.xml" title="RSS Feed"><i class="icon icon-rss black"></i></a>
         </nav>
-       <!-- <p>Incorporated theme by <a href="https://sendtoinc.com">Inc</a></p> -->
     </div>
 </footer>
 

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    
+<title>
+#TeamFloriduh
+</title>
+    
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="/images/{{ site.inc.logo }}"/>
+    <link rel="chrome-webstore-item" href="https://chrome.google.com/webstore/detail/mpfbpkapminlhcmghmpalnpjmhneapck">
+
+<link rel="stylesheet" href="https://d1hjm33yswheja.cloudfront.net/CACHE/css/34411da7e681.css" type="text/css" />
+    <script type="text/javascript" src="//use.typekit.net/omp7orf.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+</head>
+
+
+<body class="about site">
+    
+
+    
+<div class="navbar">
+    <div class="container">
+        <a class="navbar-brand" href="/"><img src="/images/logo-white.png" alt="Inc" width="73"></a>
+        <ul class="nav navbar-nav">
+            <li><a href="/" class="blog">Blog</a></li>
+            <li><a href="/app" class="app">Workbench</a></li>
+            <li><a href="/about" class="about">Team</a></li>
+            <li><a href="http://healthdatapalooza.org/get-involved/code-a-palooza-at-health-datapalooza-2014/" class="btn signup-link">About HDP</a></li>
+        </ul>
+    </div>
+</div>
+
+
+
+<div class="background">
+    <h1>Our Team</h1>
+</div>
+
+<br><br>
+
+<article class="container">
+    <div class="row" align="center">
+        <div class="col col-md-4"><img src="/images/mandi.jpg"></div>
+        <div class="col col-md-4"><img src="/images/nick.jpg"></div>
+        <div class="col col-md-4"><img src="/images/lauren.jpg"></div>
+    </div>
+    <div class="row" align="center">
+        <div class="col col-md-4"><h2>Mandi Bishop</h2>
+        A hardcore data geek with a Masters from FSU, and a passion for analytics, Mandi fell in love with BASIC and her PCjr early on. She continues to be a patient engagement advocate, healthIT innovator and dreamer.</div>
+        <div class="col col-md-4"><h2>Nick Kypreos</h2>
+        A music school dropout, Nick persued a PhD in Physics from UF. Eventually working as a data scientist with CERN, Microsoft and Amazon, he now hacks on challanging data sets. For fun. In R.  </div>
+        <div class="col col-md-4"><h2>Lauren Still</h2>
+        Jack of all trades, master of some, Lauren is a health IT generalist. Currently handling all things policy related for DICOMGrid, she fills her days talking to compliancy cats and avoiding picture oppertunities. </div>
+    </div>
+<div class="row" align="center">
+        <div class="col col-md-4"><h3>Jacksonville, FL</h3></div>
+        <div class="col col-md-4"><h3>Seattle, WA</h3></div>
+        <div class="col col-md-4"><h3>San Franciso, CA</h3></div>
+    </div>
+
+    <div class="row" align="center">
+        <div class="col col-md-4"><h4><a href="https://twitter.com/mandibpro">@MandiBPro</a></h4></div>
+        <div class="col col-md-4"><h4><a href="https://twitter.com/doomsuckle">@DoomSuckle</a></h4></div>
+        <div class="col col-md-4"><h4><a href="https://twitter.com/laurencstill">@LaurenCStill</a></h4></div>
+    </div>
+</div>
+<br>
+<br>
+
+        <blockquote>
+            <p>&quot; We shape our tools and thereafter our tools shape us.&quot;</p>
+            &mdash; Marshall McLuhan
+        </blockquote>
+
+
+<hr>
+<hr>
+<div class="row" align="center">
+    
+        <p>
+            Something about how we came to be, and the qualities we bring.  Paitent, provider, payer, etc.  Challanges Florida faces with reitrement pop, obesity, diabeties, fraud etc.  Other stuff too.  
+        When the big guys stopped caring about creating great tools, we started. Today we all work on the Internet, and have more and more information to digest. It's not just about documents or files, it's about information.  We believe that great tools should be beautiful. They should help your workflow, not increase it. You should have the option to change them and export your data.  great tools should be beautiful. They should help your workflow, not increase it. You should have the option to change them and export your data.
+        </p>
+
+        <p>Inc is an app to share links, notes and files with the people who you work with. We help companies and professionals to be better and smarter by sharing and building knowledge.great tools should be beautiful. They should help your workflow, not increase it. You should have the option to change them and export your data.</p>
+</div>
+
+<div class="row" align="center">
+<p>Questions? <a href="mailto:hello@laurencstill.com">Email us</a> or <a href="https://twitter.com/teamfloriduh">tweet to us</a></p>
+</div>
+    </section>
+
+<footer class="site-footer">
+    <div class="container">
+        <nav>
+             &copy; 2014 TeamFloriduh &middot;
+            <a href="/">Blog</a> &middot;
+            <a href="/app">Workbench</a> &middot;
+            <a href="/about">About</a>
+        
+        </nav>
+    </div>
+</footer>
+</html>
+
+
