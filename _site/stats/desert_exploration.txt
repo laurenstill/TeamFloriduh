@@ -1,0 +1,38 @@
+'ve not taken a look yet -- I will today, I promise. I'm as giddy as a school boy so ! want to tell you guys this bit of information, because this is fucking bad-ass and I want to get your wheels turning: 
+
+I think the void is going to be our best bet. Here's why:
+
+1. There are 3406 distinct procedure descriptions in Florida. (codes sometimes map to multiple descriptions, so I used distinct descriptions)
+----
+select count(distinct hcpcs_description)
+from florida
+order by hcpcs_description;
+----
+
+2. If we look at the procedures available per city, this never comes close to 3406. I attached a screen shot of the top 10. 
+
+----
+select nppes_provider_city as city
+	, count(distinct hcpcs_description) as numTypes
+from florida
+group by nppes_provider_city
+order by count(distinct hcpcs_description) desc
+----
+
+I really wasn't expecting the result in 2. I also have it queued up to look at: 
+
+-- number of providers grouped by [per area (a city cluster) , procedure]
+-- ([number of providers] /[area population] ) grouped by [per area (a city cluster), procedure]
+-- ([average number of procedures] / [area population]) grouped by [per area (a city cluster), procedure]
+-- If we can cluster procedure types, we can look at set differences and look at coverage per class of procedure. 
+
+Note I mentioned city cluster there. I need to figure out how we're going to cluster the cities. I think we should check this initially for a couple of cities. 
+
+I've put florida on its own in the dropbox for faster plays as well as thevoid.R, which has all the queries I'm using to do this initially. I'm basically using R as a means of holding the outputs of my queries for later use and numerical analysis. Muahahahahaha. 
+
+
+The big challenge for this is clustering cities (We should compare a few major areas nationwide initially if this is hard and just cluster this manually. I have a nationwide image in my head where we take the major areas and create a dot that scales with the number of available procedures and a color that changes with availability. 
+
+Another idea for our visualization is we take a map of the USA and create a heat map of the procedure per capita. There can be a selector on the side where one can take the procedure and create the updated projection. That'd take some stabbing with D3. 
+
+All we need to match this is some census data. Then we can draw some correlations. (There's a lag, but it's not that far off temporally so ~5 years won't change the population migration that much.)
