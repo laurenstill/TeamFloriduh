@@ -6,7 +6,7 @@ subtitle: "...Everything's a Nail When You Have a Hammer."
 cover_image: blog-cover.jpg
 date: 2014-04-14
 
-excerpt: "An ongoing list of tools and technology, and educational resources necessary to get started with public data analysis. TL;DR Not a tutorial, but pretty damn close."
+excerpt: "An ongoing list of tools and technology, and educational resources necessary to get started with public data analysis. TL;DR Not a tutorial, but pretty close."
 
 author:
   name: Lauren Still
