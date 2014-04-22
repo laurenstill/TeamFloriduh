@@ -78,12 +78,15 @@
 </div>
 
 <section class="container">
+<br><br>
+<p>The <a href="http://www.forbes.com/sites/danmunro/2014/04/14/medicares-big-data-dump-is-just-that-a-dump/">public reaction</a> to the recent CMS public data dump has been met with <a href="http://thedifferentialdiagnosis.com/post/82529405583/cms-and-its-data-dump">mixed</a> <a href="http://www.modernhealthcare.com/article/20140410/NEWS/304109936">reactions</a>.  While transparency has generally been valued, many are concerned about the ethical implications of providing so much information to the general public without the means necessary to understand, critically evaluate, or use it meaningfully. To us, that just sounds too much like the doctor telling the patient "don't bother with independant research, you wouldn't understand." </p>
+
+<p>Answering the question "How can the general public benefit" from such data dumps is two-fold.  First, as data scientist, we have an obligation to present information in an accurate manner.  Unfortunately, this is often not the case, and <a href="http://www.bloomberg.com/dataview/2014-04-17/how-americans-die.html">wildly popular data visualizations</a> from well known publications are still missleading. The statistical background necessary for critical analysis is lacking in our community. The first step to helping the public benefit is to leverage data dumps like these to spur interest and education. Second, it's a great platform to dissect analysis methodology, and walk consumers through the process so that they may start with their own analysis. True data transparency is more than just raw numbers.</p>  
+
+<p>Education is more democratic now than ever, and information is more accessible, to the point of overload.  Neat data visualizations will only go so far if the consumer can't evaluate them critically.  In this spirit, we are blogging real time about our exploration, and curating a list of resources for those interested in understanding the foundation of data science. This is an ongoing project, beyond HDPalooza. If you know of good resources, please <a href="mailto:hello@laurencstill.com">let us know</a>! </p>
+
 <h3>Statistics</h3> 
-<p>Data scientistists are often described as those who are better at software 
-engineering than a statistician and better at statistics than any software 
-engineer. As such, statistical inference underpins much of the theory 
-behind data analysis and a solid foundation of statistical methods and 
-probability serves as a stepping stone into the world of data science. There is an abundance of information freely availible for those needing a refresher in stats and statistical programming.</p>
+<p>Data scientistists are often <a href="http://www.dataists.com/2010/09/a-taxonomy-of-data-science/">described</a> as those who are better at software engineering than a statistician and better at statistics than any software engineer. As such, statistical inference underpins much of the theory behind data analysis and a solid foundation of statistical methods and probability serves as a stepping stone into the world of data science. There is an abundance of information freely availible for those needing a refresher in stats and statistical programming.</p>
 <h4>Courses:</h4>
 <ul>
     <a href="https://www.edx.org/courses/BerkeleyX/Stat2.1x/2013_Spring/about">edx: Introduction to Statistics:</a> A basic introductory statistics
@@ -95,34 +98,90 @@ probability serves as a stepping stone into the world of data science. There is 
 <ul>
     <a href="http://ocw.mit.edu/courses/sloan-school-of-management/15-075j-statistical-thinking-and-data-analysis-fall-2011/index.htm">MIT: Statistical Thinking and Data Analysis:</a> Introduction to probability, sampling, regression, common distributions, and inference.
 </ul>
-<p>While R is the de facto standard for statistical programming, it 
-has quite a high learning curve. For those new to both programming and statistical analysis, Python is well suited for a number of specific problem domains, in addition to general web development.  Many of the functionalities of R can be replicated with NumPy, SciPy, IPython, Matplotlib, Pandas and more.</p>
+
 <h4>Books:</h4>
-Like other technical topics, O'Reilly is a reliable go-to source for printed literature.  
-<h3>Programming</h3>
-RosettaCode http://rosettacode.org/wiki/Rosetta_Code
+
+<p>A trustworthy, practical, well structured statistical reference book is a great supplement for online dynamic information, particularly when it comes to the fundamentals. These may be particularly useful if you already have some knowledge of the subject or just need to fill in some gaps in your understanding. Work through one, mark it up, break the binding and show print some love.</p>
+
 <ul>
-    Ruby/Rails/Jekyll
-</ul>
-<ul>
-    Python/Flask/Django/Bottle
+    <a href="http://www.greenteapress.com/thinkbayes/thinkbayes.pdf">Think Bayes:</a> An simple introduction to Bayesian Statistics with Python code examples.
 </ul> 
 <ul>
-    C/C++/Go
+    <a href="http://www.openintro.org/stat/index.php">OpenIntro: Statistics:</a> Introductory text book with supplementary exercises and labs in an online portal.
+</ul>  
+<ul>
+    <a href="http://www.stat.berkeley.edu/~aldous/134/gravner.pdf">Lecture notes for Introduction to Probability:</a> Compiled lecture notes of above textbook, complete with exercises.
+</ul>  
+<ul>
+    <a href="http://www.stat.berkeley.edu/~aldous/134/grinstead.pdf">Introduction to Probability:</a> Textbook for Berkeley’s Stats 134 class, an introductory treatment of probability with complementary exercises.
+</ul>   
+<ul>
+    <a href="http://www.greenteapress.com/thinkstats/">O’Reilly: Think Stats:</a> An introduction to Probability and Statistics for Python programmers.
 </ul>
 <ul>
-    R/Julia/
+    <a href="">O’Reilly: Think Stats:</a> An introduction to Probability and Statistics for Python programmers.
+</ul>
+
+<h3>Programming</h3>
+<p>Programming serves a dual function when it comes to data science:  it is first and foremost the tool used for statistical analysis, but it is also the foundation for communication and education. Python is a great multi purpose language capable of handling both analysis and platform develovelopment, but familiarity with other languages and frameworks strengths and weaknesses can help narrow down the decision making process for more advanced operations. </p>
+
+
+<p>While <a href="http://www.datarobot.com/blog/r-getting-started-with-data-science/">R</a> is the de facto standard for statistical programming, it has quite a high learning curve. For those new to both programming and statistical analysis, Python is well suited for a number of specific problem domains, in addition to general web development.  Many of the functionalities of R can be replicated with <a href="http://www.numpy.org/">NumPy</a>, <a href="http://scipy-lectures.github.io/">SciPy</a>, <a href="https://www.pythonanywhere.com/try-ipython/">IPython</a>, <a href="http://matplotlib.org/">Matplotlib</a>, <a href="http://pandas.pydata.org/">Pandas</a> and many more <a href="http://strata.oreilly.com/2013/03/python-data-tools-just-keep-getting-better.html">statistical libraries</a>.</p>
+
+<p>The "learn to code" movement is a booming business, and as such resources for those just starting out can be overwhelming, but below (no particular order) are some of the more tried and true books, lessons, tutorials and resources focused on programming basics.</p> 
+
+<ul>
+<a href="http://rosettacode.org/wiki/Rosetta_Code">Rosetta Code:</a> A programming chrestomathy site where solutions to the same task are presented in as many different languages as possible.
+</ul>
+
+<ul>
+   <a href="http://learncodethehardway.org/">Learn Code The Hard Way:</a> Lessons for Python, Ruby, C, SQL, Regular Expression and an active support community.
 </ul>
 <ul>
-    SAS/Matlab
+    <a href="http://openbookproject.net/thinkcs/python/english3e/"> How to Think Like a Computer Scientist:</a> Ebook programming resource focusing on problem sovling with Python.
 </ul>
 <ul>
-    Markdown/maroku/liquid/latex/html/css
+    <a href="http://www.datarobot.com/blog/python-getting-started-with-data-science/"> Getting Started with Data Science:</a> A data science programming tutorial using Python and real data from NTSB.
+</ul>
+<ul>
+    <a href="https://www.udacity.com/course/cs101">Udacity: CS101:</a> Popular MOOC intro to computer science course, widely considered the most comprehensive CS intro MOOC.
+</ul> 
+<ul>
+  <a href"http://www.reddit.com/r/learnprogramming/comments/1bx5mb/heres_a_list_of_33_free_online_programmingcs/"> Crowdsourced CS Courses:</a> A large list of beginner CS online courses, resources and tutorials crowdsourced by Reddit. 
+</ul>
+<ul>
+    <a href="http://www.reddit.com/r/learnprogramming/wiki/index#wiki_discouraged_resources">Discouraged Resources:</a> Sometimes knowing what resources to avoid is just as important as knowing the good ones. 
+</ul>
+<ul>
+    <a href="https://www.youtube.com/watch?v=iffR3fWv4xw&list=PLOU2XLYxmsIK9qQfztXeybpHvru-TrqAP">GoogleDev: Intro to R:</a> A 21-video series introducing users to basic R concepts, reshaping data and function writing. 
+</ul>
+<ul>
+   <a href="https://www.coursera.org/course/compdata">Coursera: Computing for Data Analysis:</a> Part of the Data Science certificate program, focuses on data analysis fundamentals in R.
+</ul>
+<ul>
+    <a href="http://julialang.org/">Julia:</a> A LLVM-based just-in-time compiled programming language for technical computing, with impressive benchmarks.
+</ul>
+<ul>
+    <a href="http://root.cern.ch/drupal/">ROOT: A Data Analysis Framework</a> For those comfortable with compiled languages, the ROOT framework allows for largescale data analysis in C++.
+</ul>
+<ul>
+    <a href="http://pythonbooks.revolunet.com/">Python Opensource Library:</a> A large collection of ebooks from Google, O'Reilly, PSF, and developers covering all aspects of development.
+</ul>
+<ul>
+    <a href="http://codepen.io/"></a>
+</ul>
+<ul>
+    <a href="http://gitready.com/">Git Ready:</a> A set of git (version control software) tutorials. If you want to stick around and code then you should get to know version control.
+</ul>
+<ul>
+    <a href="http://www.htmldog.com/"></a>
 </ul>
 <br>
+
+
 <h3>Data Visualization</h3>
 <ul>
-    JS Charts
+    <a href="http://flowingdata.com/2012/12/17/getting-started-with-charts-in-r/">FlowingData: Getting Started with Charts in R:</a>  Nathan Yau's tutorial offers examples of basic plotting in R, including downloadable source code.
 </ul>
 <ul>
     HighCharts
@@ -139,7 +198,7 @@ RosettaCode http://rosettacode.org/wiki/Rosetta_Code
 <h4>Books:</h4>
 <br>
 <h3>Miscellaneous Tools</h3>
-<p>One of the great things about statistical programming in recent years is the abundance of tools availible to the average person.  Forums like <a href="http://www.datatau.com"><DataTau</a> and <a href="http://www.reddit.com/r/dataisbeautiful">/r/DataIsBeautiful</a> are a good central starting place to stay current with new libraries, datasets and tools. Additionally, there are a number of web platforms for analyzing smaller data sets and collaborating with others. </p>
+<p>One of the great things about statistical programming in recent years is the abundance of tools availible to the average person.  Forums like <a href="http://www.datatau.com">DataTau</a> and <a href="http://www.reddit.com/r/dataisbeautiful">/r/DataIsBeautiful</a> are a good central starting place to stay current with new libraries, datasets and tools. Additionally, there are a number of web platforms for analyzing smaller data sets and collaborating with others. </p>
 <ul>
     Tableau
 </ul>
