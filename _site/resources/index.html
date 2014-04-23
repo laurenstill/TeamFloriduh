@@ -81,7 +81,7 @@
 <br><br>
 <p>The <a href="http://www.forbes.com/sites/danmunro/2014/04/14/medicares-big-data-dump-is-just-that-a-dump/">public reaction</a> to the recent CMS data dump has been met with <a href="http://thedifferentialdiagnosis.com/post/82529405583/cms-and-its-data-dump">mixed</a> <a href="http://www.modernhealthcare.com/article/20140410/NEWS/304109936">reactions</a>.  While transparency has generally been valued, many are concerned about the ethical implications of providing so much information to the general public without the means necessary to understand, critically evaluate, or use it meaningfully. To us, that just sounds too much like the doctor telling the patient "don't bother with independant research, you wouldn't understand." </p>
 
-<p>Answering the question "How can the healthcare consumer benefit" from such data dumps is two-fold. First, as data scientist, we have an obligation to present information in an accurate manner.  Unfortunately, this is often not the case, and <a href="http://www.bloomberg.com/dataview/2014-04-17/how-americans-die.html">wildly popular data visualizations</a> from well known publications are still missleading. The statistical background necessary for critical analysis is lacking in our community. The first step to helping the public benefit is to leverage data dumps like these to spur interest and consumer education. Second, it's a great platform to dissect analysis methodology, and walk consumers through the process so that they may start with their own analysis. True data transparency is more than just raw numbers. Then can we start talking about visualizations.</p>  
+<p>Answering the question "How can the healthcare consumer benefit" from such data dumps is two-fold. First, as data scientists, we have an obligation to present information in an accurate manner.  Unfortunately, this is often not the case, and <a href="http://www.bloomberg.com/dataview/2014-04-17/how-americans-die.html">wildly popular data visualizations</a> from well known <a href="http://www.joeydevilla.com/wordpress/wp-content/uploads/2014/04/misleading-stand-your-ground-chart.jpg">publications</a> are still <a href="http://mediamatters.org/research/2012/10/01/a-history-of-dishonest-fox-charts/190225">missleading</a>. The statistical background necessary for critical analysis is lacking in our community. The first step to helping the public benefit is to leverage data dumps like these to spur interest in statistics and consumer education. Second, it's a great platform to dissect analysis methodology, and walk consumers through the process so that they may start with their own analysis. True data transparency is more than just raw numbers. Then can we start talking about visualizations.</p>  
 
 <p>Education is more democratic now than ever, and information is more accessible, to the point of overload.  Neat data visualizations will only go so far if the consumer can't evaluate them critically.  In this spirit, we are blogging real time about our exploration, and curating a list of resources for those interested in understanding the foundation of data science. This is an ongoing project, beyond HDPalooza. If you know of good resources, please <a href="mailto:hello@laurencstill.com">let us know</a>! </p>
 
@@ -93,10 +93,16 @@
     course.
 </ul>
 <ul>
+    <a href="https://class.stanford.edu/courses/HumanitiesScience/StatLearning/Winter2014/about">Stanford: Statistical Learning:</a>  Introductory-level course with a focus on regression and classification methods.
+</ul>
+<ul>
     <a href="https://www.coursera.org/course/introstats">Coursera: Statistics, Making sense of Data:</a> A applied Statistics course that teaches the complete pipeline of statistical analysis.
 </ul>
 <ul>
     <a href="http://ocw.mit.edu/courses/sloan-school-of-management/15-075j-statistical-thinking-and-data-analysis-fall-2011/index.htm">MIT: Statistical Thinking and Data Analysis:</a> Introduction to probability, sampling, regression, common distributions, and inference.
+</ul>
+<ul>
+    <a href="https://www.edx.org/course/kix/kix-kiexplorx-explore-statistics-r-1524#.U1bIAuZdUod">edx: Explore Statistics with R:</a> Followup to edx's intro course, this gives a deaper overview of statistical programming with R.
 </ul>
 
 <h4>Books:</h4>
@@ -119,7 +125,7 @@
     <a href="http://www.greenteapress.com/thinkstats/">O’Reilly: Think Stats:</a> An introduction to Probability and Statistics for Python programmers.
 </ul>
 <ul>
-    <a href="">O’Reilly: Think Stats:</a> An introduction to Probability and Statistics for Python programmers.
+    <a href="http://www.angelo.edu/faculty/showry/courses/asci6321/R_cookbook.pdf">O’Reilly: R Cookbook:</a> A collection of R "recipes" to jump start statistical analysis. 
 </ul>
 
 <h3>Programming</h3>
@@ -168,80 +174,120 @@
     <a href="http://pythonbooks.revolunet.com/">Python Opensource Library:</a> A large collection of ebooks from Google, O'Reilly, PSF, and developers covering all aspects of development.
 </ul>
 <ul>
-    <a href="http://codepen.io/"></a>
+    <a href="http://bin.sc/Readings/Programming/Python/Python%20for%20Data%20Analysis/Python_for_Data_Analysis.pdf">O'Reilly: Python for Data Analysis:</a> Bridges the gap between programming and stastical analysis.
+</ul>
+
+<h3>Data Visualization</h3>  <!-- http://selection.datavisualization.ch/ -->
+<p>Now the fun part. D3js is one of the most popular options for data visualisations, but there are many more resources available. Keep in mind color schemes and scales, normalization and labels as they can be inadvertently misleading.  Additionally, R can map many of these visualisations with fewer dependencies.</p>
+<ul>
+    <a href="http://flowingdata.com/2012/12/17/getting-started-with-charts-in-r/">FlowingData:</a>  Nathan Yau's tutorial offers examples of basic plotting in R, including downloadable source code.
+</ul>
+<ul>
+    <a href="http://www.highcharts.com/">HighCharts:</a> A charting library written in pure HTML5/JavaScript, offering intuitive, interactive charts for web applications.
+</ul>
+<ul>
+    <a href="http://d3js.org/>">D3.js:</a> An small, flexible and efficient library to create and manipulate interactive documents based on data.
+</ul>
+<ul>
+    <a href="http://circos.ca/">Circos:</a> A software package in Perl for visualizing data in a circular layout.
+</ul>
+<ul>
+    <a href="http://cartodb.com">CartoDB:</a> A web service for mapping, analyzing and building applications with data.
+</ul>
+<ul>
+<a href="https://www.mapbox.com/">MapBox: </a> A web platform for hosting custom designed map tiles and a set of open source tools to produce them.
+</ul>
+<ul>
+    <a href="http://raphaeljs.com/">Raphael:</a> A small JavaScript library that should simplify your work with vector graphics on the web.
+</ul>
+<ul>
+<a href="http://paperjs.org/">PaperJS:</a> A vector graphics scripting framework in a well designed, consistent and clean programming interface.
+</ul>
+<ul>
+   <a href="http://polymaps.org/">Polymaps:</a> A library for making dynamic, interactive maps with image- and vector-based tiles.
+</ul>
+<ul>
+    <a href="http://vis.stanford.edu/wrangler/">DataWraongler:</a> An interactive web application for data cleaning and transformation.
+</ul>
+<ul>
+   <a href="http://flare.prefuse.org/">Flare:</a> A set of software tools for creating rich interactive data visualizations in ActionScript.
+</ul>
+
+<h3>Healthcare Data</h3>
+<p>This section may never be "done." There is a lot of armchairing happening around healthcare analytics, and not a whole lot of substance. Listed here are a few resources to get the outsider up and running in the healthcare space. Currently seaking open sourced versions of this information and other time tested resources.</p>
+<ul>
+    <a href="http://shop.oreilly.com/product/0636920020110.do">Hacking Healthcare:</a>  A candid assessment of the US healthcare system as it ramps up its use of healthIT to comply with regualtions.
+</ul>
+<ul>
+    <a href="http://www.oreilly.com/data/free/info-tech-fix-for-health.csp">The Information Technology Fix for Health:</a> A focus on how personal data fits into the enterprise healthcare space.
+</ul>
+<ul>
+</ul>
+<ul>
+</ul>
+
+<h3>Miscellaneous Tools</h3>
+<p>One of the great things about statistical programming in recent years is the abundance of tools availible to the average person.  Forums like <a href="http://www.datatau.com">DataTau</a> and <a href="http://www.reddit.com/r/dataisbeautiful">/r/DataIsBeautiful</a> are a good central starting place to stay current with new libraries, datasets and tools. Additionally, there are a number of web platforms for analyzing smaller data sets and collaborating with others. As of now, a number of tools which help fill in webdev information gaps, from version control to CSS, and hosting, are also listed in this section. </p>
+<ul>
+    <a href="http://www.tableausoftware.com/public/">Tableau Public:</a> Free cloud-based data visualization tool focused on community collaboration. 
+</ul>
+<ul>
+    <a href="https://datanitro.com/">DataNitro:</a> Microsoft Excel spreadsheet plug-in for Python scripting and data manipulation. 
+</ul>
+<ul>
+   <a href="https://plot.ly/plot">Plotly:</a>  An online collaborative data analysis and graphing tool to make and share interactive charts.
+</ul>
+<ul>
+  <a href="http://www-958.ibm.com/software/analytics/manyeyes/datasets">Many Eyes:</a> A web application to build, share and discuss graphic representation of user uploaded data.
+</ul>
+<ul>
+    <a href="http://colorbrewer2.org/">ColorBrewer:</a> Color advice for cartography and map data visualizations. 
+</ul>
+<ul>
+<a href"http://shancarter.github.io/mr-data-converter/">MrDataConverter:</a> Convert MSExcel data into one of several web-friendly formats, including HTML, JSON and XML.
+</ul>
+<ul>
+    <a href="http://www.crummy.com/software/BeautifulSoup/">BeautifulSoup:</a> Provides a few simple methods and Pythonic idioms for navigating, searching, and modifying a parse tree.
+</ul>
+<ul>
+    <a href="http://codepen.io/">Codepen:</a> An HTML, CSS, and JavaScript code editor in your browser with instant previews of the code you see. 
 </ul>
 <ul>
     <a href="http://gitready.com/">Git Ready:</a> A set of git (version control software) tutorials. If you want to stick around and code then you should get to know version control.
 </ul>
 <ul>
-    <a href="http://www.htmldog.com/"></a>
+    <a href="http://www.htmldog.com/">HTMLDog:</a> At some point you'll want to package it all together and put it on the web, and this is the tutorial for that.
 </ul>
-<br>
 
-
-<h3>Data Visualization</h3>
-<ul>
-    <a href="http://flowingdata.com/2012/12/17/getting-started-with-charts-in-r/">FlowingData: Getting Started with Charts in R:</a>  Nathan Yau's tutorial offers examples of basic plotting in R, including downloadable source code.
-</ul>
-<ul>
-    HighCharts
-</ul>
-<ul>
-    D3.js
-</ul>
-<ul>
-    http://selection.datavisualization.ch/
-</ul>
-<br>
-<h3>Healthcare Data</h3>
-<h4>Courses:</h4> 
-<h4>Books:</h4>
-<br>
-<h3>Miscellaneous Tools</h3>
-<p>One of the great things about statistical programming in recent years is the abundance of tools availible to the average person.  Forums like <a href="http://www.datatau.com">DataTau</a> and <a href="http://www.reddit.com/r/dataisbeautiful">/r/DataIsBeautiful</a> are a good central starting place to stay current with new libraries, datasets and tools. Additionally, there are a number of web platforms for analyzing smaller data sets and collaborating with others. </p>
-<ul>
-    Tableau
-</ul>
-<ul>
-    DataNitro
-</ul>
-<ul>
-    Plotly
-</ul>
-<ul>
-  <a href="http://www-958.ibm.com/software/analytics/manyeyes/datasets">Many Eyes</a>
-</ul>
-<ul>
-    http://colorbrewer2.org/
-</ul>
-<ul>
-http://shancarter.github.io/mr-data-converter/
-</ul>
-<ul>
-Beautiful soup and scrappy
-</ul>
-<br>
 <h3>Public Datasets</h3>
-Half the fun of datas cience is figuring out what information can be mashed together for new insights.  Both <a href="http://stackoverflow.com/questions/381806/large-public-datasets">StackOverflow</a> and <a href="http://www.quora.com/Data/Where-can-I-find-large-datasets-open-to-the-public">Quora</a> have extensive lists of publically availible data. Below are some of the more comprehensive and interesting data libraries availible to the public. Additional information can be mined through web scrapping, crowdsourcing and integrating service APIs.
+<p>Half the fun of datascience is figuring out what information can be mashed together for new insights.  Both <a href="http://stackoverflow.com/questions/381806/large-public-datasets">StackOverflow</a> and <a href="http://www.quora.com/Data/Where-can-I-find-large-datasets-open-to-the-public">Quora</a> have extensive lists of publically availible data. Below are some of the more comprehensive and interesting health data libraries availible to the public. Additional information can be mined through web scrapping, crowdsourcing and integrating service APIs.</p>
 <ul>
-    Ruby
+    <a href="http://linkeddata.org/">LinkedData:</a> Connected distributed data across the semantic web.
 </ul>
   
 <ul>
-    Python
+    <a href="https://data.medicare.gov/">Data.Medicare:</a> Download, explore, and visualize availible Medicare data.
 </ul>
-    
 <ul>
-    C/C++
+    <a href="http://www.data.gov/">Data.gov:</a> Data, tools, and resources to conduct research, develop web and mobile applications, design data visualizations, based on open US data.
+</ul>
+<ul>
+    <a href="http://aws.amazon.com/datasets">Amazon:</a> Public Data Sets on AWS providing a centralized repository of public data sets that can be seamlessly integrated.
+</ul>
+<ul>
+    <a href="http://figshare.com/">Figshare:</a> Store, share, discover, research and manage cloud based data.
+</ul>
+<ul>
+    <a href="http://www.cdc.gov/nchs/nhanes/nhanes_questionnaires.htm">CDC.gov:</a> National Health and Nutrition Examination Survey data repository. 
+</ul>
+<ul>
+    <a href="https://data.cms.gov/">CMS.gov:</a> Center for Medicare and Medicaid Services public data sets.
+</ul>
+<ul>
+    <a href="http://healthdata.gov/">HealthData.gov:</a> A broader collection of HHS provided data and population statsitics.
 </ul>
 
-<ul>
-    R
-</ul>
 
-<ul>
-    SAS
-</ul>
 
 </section>
 
