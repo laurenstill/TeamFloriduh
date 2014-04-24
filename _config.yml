@@ -11,10 +11,10 @@ inc:
   facebook:     laurencstill
   twitter:      TeamFloriduh
   gplus:        '+LaurenStill'
-  about_link:   0.0.0.0:4000/about/
+  about_link:   teamfloriduh.com/about/
   
   # Product Information
-  product_link: 0.0.0.0:4000/app
+  product_link: teamfloriduh.com/app
   tagline:      "Something about CMS data and health stuff..."
   
   # Comments

@@ -20,7 +20,7 @@ Setting a benchmark understanding about how larger datasets behave can be diffic
 
 We want to make sure there are no surprises with the base case before adding on layers of complexity or information sets.  For this initial investigation, we pushed the CMS data into a SQLite database, and ran some basic analysis with the R programing language.  Specifically, we looked at the Medicare reimbursements and how they related to provider sex, age and race. 
 
-As expected, there was no significant difference in bill-out rates based on sex (looking at all the data), and it was the same with the pay-out rate. This was confirmed with private data for race and age.  Turns out, our government is pretty unbiased in how it pays out, and that's worthy a footnote.  
+As expected, there was no significant difference in bill-out rates based on sex (looking at all the data), and it was the same with the reimbursement rate. This was confirmed with private data for race and age. Turns out, our government is pretty unbiased in how it pays out, and that's worthy a footnote.  
 
 
 

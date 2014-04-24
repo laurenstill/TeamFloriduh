@@ -26,15 +26,17 @@ We have a few goals in mind, beyond pure health data discovery:
 
 1. Have Fun:  It's important to show others, especially non-health-data-geeks that this can be an enjoyable initiative. Yes, we nerd out, but it's not all TNG and pizza. 
 
-2. Be Democratic: Also important is educating others that this can be done by normal people.  We are not professional programmers exactly, but we do have a vested interest in data. We feel it's important to highlight that together our different backgrounds can create a whole greater than the sum of our parts, and that the tools to accomplish this are widely available to the greater public.
+2. Be Democratic: Also important is educating others so that this may be accomplished by "normal" people.  We are not professional programmers exactly, but we do have a vested interest in data. We feel it's important to highlight that together our different backgrounds can create a whole greater than the sum of our parts, and that the tools used to accomplish this are widely available to the greater public.
 
-3. Learn Something: Me?  I need to brush up on R, and webdev.  Nick is a complete newb to the healthcare scene.  Mandi is looking forward to technical nuts and bolts. We all have vastly different backgrounds and talents, and it will be interesting to feed off of each other.
+3. Learn Something: Me? I need to brush up on R, and webdev. Nick is a complete newb to the healthcare scene.  Mandi is looking forward to technical nuts and bolts. We all have vastly different backgrounds and talents, and it will be interesting to feed off of each other.
 
-4. Win Big: Let's be honest, now, it's crossed our mind.
+4. Provide Value: Core to this initiative is the opportunity to provide real value and insight to the greater healthcare community and the patients involved.
+
+5. Win Big: Let's be honest, now, cash money potential has crossed our minds.
 
 Beyond this, we are pretty open.  There's a lot to discover, and we will take the next two weeks kicking around broad hypothesis before narrowing things down for a formal proposal.  
 
-I will try to expand more on our team, and what everyone brings to the table, but for now:
+I will try to expand more on our team, and what everyone brings to the table, but for now, meet:
 
 
 <div align="center">
