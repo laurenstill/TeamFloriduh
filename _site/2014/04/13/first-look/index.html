@@ -3,7 +3,7 @@
 <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>First Insights &mdash; #TeamFloriduh</title>
+    <title>First Look &mdash; #TeamFloriduh</title>
 
 
 
@@ -14,20 +14,20 @@
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
     <link rel="apple-touch-icon" href="/images/logo.png"/>
     <link href="/feed.xml" rel="alternate" type="application/rss+xml" title="#TeamFloriduh" />
-    <meta name="title" content="First Insights ">
-    <link rel="canonical" href="http://teamfloriduh.com/2014/04/13/demographics/">
+    <meta name="title" content="First Look ">
+    <link rel="canonical" href="http://teamfloriduh.com/2014/04/13/first-look/">
      
     <link rel="author" href="https://plus.google.com/+LaurenStill">       
-    <meta property="og:title" content="First Insights "/>
-    <meta property="og:url" content="http://teamfloriduh.com/2014/04/13/demographics/"/>
+    <meta property="og:title" content="First Look "/>
+    <meta property="og:url" content="http://teamfloriduh.com/2014/04/13/first-look/"/>
     
     <meta property="og:image" content="http://teamfloriduh.com/images/blog-cover.jpg"/>
     
     <meta property="og:image" content="http://teamfloriduh.com/images/logo.png"/>   
     
     
-    <meta property="og:description" content="Good news, CMS really does appear to be blind to race, sex and gender in reimbursement rates.  TL;DR We found what we expected. Go us!"/>
-    <meta name="description" content="Good news, CMS really does appear to be blind to race, sex and gender in reimbursement rates.  TL;DR We found what we expected. Go us!"/>
+    <meta property="og:description" content="A disappointing first look into the CMS Provider database and the limitations presented when exploring other data mashups.  TL;DR Annual Data Averages."/>
+    <meta name="description" content="A disappointing first look into the CMS Provider database and the limitations presented when exploring other data mashups.  TL;DR Annual Data Averages."/>
     
     <meta property="og:site_name" content="#TeamFloriduh"> 
 
@@ -88,18 +88,26 @@
                 By <address><a rel="author" href="" title="Lauren Still" target="_blank">Lauren Still</a></address> &mdash;
                 <time pubdate datetime="2014-13-April" title="April 13, 2014">April 13, 2014</time>
             </div>
-            <h1 class="title">First Insights</h1>
-            <h2 class="subtitle">Or How I learned to Trust The Data</h2>
+            <h1 class="title">First Look</h1>
+            <h2 class="subtitle">Following the Proverbial Carrot</h2>
         </header>
 
        <section>
-            <p>Setting a benchmark understanding about how larger datasets behave can be difficult, especially when using new tools and technology. It’s important to get some basic clustering and visualization to understand the big picture before diving in. Today, we tested a few hypotheses that we could <em>reasonably</em> expect to prove positive.</p>
+            <p>Last week (April 9, 2014) CMS continued showing unprecedented transparency by releasing <a href='https://www.cms.gov/Research-Statistics-Data-and-Systems/Statistics-Trends-and-Reports/Medicare-Provider-Charge-Data/Physician-and-Other-Supplier.html'>Medicare payer information data</a> for the 2012 year. This dataset, 9M records in total, includes physician names and addresses in addition to CPT code frequencies over 10. For patient data security, it does not include payment data for less frequent treatments. Chances are, if you are a physician who has provided care to a medicare recipient in 2012, your billing information is included.</p>
 
-<p>We want to make sure there are no surprises with the base case before adding on layers of complexity or information sets. For this initial investigation, we pushed the CMS data into a SQLite database, and ran some basic analysis with the R programing language. Specifically, we looked at the Medicare reimbursements and how they related to provider sex, age and race.</p>
+<p>This government data disclosure has <a href='http://www.healthcarefinancenews.com/news/doctors-protest-CMS-data-release'>raised plenty of eyebrows</a>, particularly from physicians and provider advocates.</p>
 
-<p>As expected, there was no significant difference in bill-out rates based on sex (looking at all the data), and it was the same with the reimbursement rate. This was confirmed with private data for race and age. Turns out, our government is pretty unbiased in how it pays out, and that’s worthy a footnote.</p>
-<div align='center'><img src='/images/mcrdemo.png' /></div><hr /><hr />
-<p>“Statistical thinking will one day be as necessary for efficient citizenship as the ability to read and write.” - H.G.Wells</p>
+<p>“We believe that the broad data dump (Wednesday) by CMS has significant shortcomings regarding the accuracy and value of the medical services rendered by physicians,” said Ardis Dee Hoven, MD, president of the AMA, in a statement. “Releasing the data without context will likely lead to inaccuracies, misinterpretations, false conclusions and other unintended consequences.”</p>
+
+<p>Still others in industry question what value “normal” people would find in such a data dump, without the skillsets necessary to process information appropriately. Personally, this seems akin to doctors who don’t trust that patients can understand disease management or critically evaluate treatment options or diagnostic information. This information is another important step towards defining the “cost”, “value”, and “price” parameters in healthcare.</p>
+
+<p>As our team dug into the CMS data set for the first time on Monday, and the shortcomings became abundantly clear. The yearly aggregated data came with significant limitations. As the brainstorming session went on, it became more and more apparent that any data trend analysis would have to wait, and we would have to focus on geographic parameters, and publically available heatmap data. In addition to this, the amount of clean up necessary is staggering: cities spelled differently, missing fields, conflicting demographic information, and on.</p>
+
+<p>CMS is specifically looking to fraud detection, and consumer tools, but has tied independent developer’s hands by not providing granular data which could be married with weather, CDC/NIH or other time-based statistics. While this and other data dumps are a start, it is only a start.</p>
+
+<p>Five years ago the means for complex data analysis were not accessible to “normal” people, but that is no longer the case. The private sector has come through, and provided access to the tools necessary for individual critical analysis. It’s important to support the public sector in meeting the community halfway.</p>
+<hr /><hr />
+<p>“You can have data without information, but you cannot have information without data.” - Daniel Keys Moran</p>
             <!--  -->
         </section>
 

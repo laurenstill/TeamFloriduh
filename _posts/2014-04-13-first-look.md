@@ -4,7 +4,7 @@ layout: post
 title: First Look
 subtitle: "Following the Proverbial Carrot"
 cover_image: blog-cover.jpg
-date: 2014-04-11
+date: 2014-04-13
 
 excerpt: "A disappointing first look into the CMS Provider database and the limitations presented when exploring other data mashups.  TL;DR Annual Data Averages."
 

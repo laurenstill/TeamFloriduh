@@ -4,7 +4,7 @@ layout: post
 title: First Insights
 subtitle: "Or How I learned to Trust The Data"
 cover_image: blog-cover.jpg
-date: 2014-04-13
+date: 2014-04-18
 
 excerpt: "Good news, CMS really does appear to be blind to race, sex and gender in reimbursement rates.  TL;DR We found what we expected. Go us!"
 

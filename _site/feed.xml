@@ -6,17 +6,17 @@
     <atom:link href="http://teamfloriduh.com/feed.xml" rel="self" type="application/rss+xml" />
     <description></description>
     <language>en-us</language>
-    <pubDate>Thu, 24 Apr 2014 23:33:14 +0000</pubDate>
-    <lastBuildDate>Thu, 24 Apr 2014 23:33:14 +0000</lastBuildDate>
+    <pubDate>Fri, 25 Apr 2014 01:20:28 +0000</pubDate>
+    <lastBuildDate>Fri, 25 Apr 2014 01:20:28 +0000</lastBuildDate>
 
     
     
     <item>
       <title>Data Toolkit</title>
-      <link>http://teamfloriduh.com/2014/04/14/tools/</link>
-      <pubDate>Mon, 14 Apr 2014 00:00:00 +0000</pubDate>
+      <link>http://teamfloriduh.com/2014/04/20/tools/</link>
+      <pubDate>Sun, 20 Apr 2014 00:00:00 +0000</pubDate>
       <author></author>
-      <guid>http://teamfloriduh.com/2014/04/14/tools</guid>
+      <guid>http://teamfloriduh.com/2014/04/20/tools</guid>
       <description>&lt;p&gt;Short post for now, but we are building a collection of resources and tools to help others learn and understand what we have done, and the technology behind it. This will be cataloged under the &lt;a href='teamfloriduh.com/resources'&gt;Resources&lt;/a&gt; section of this site. Hopefully, as we progress, will be be able to include tutorials, and examples based on the available Medicare data.&lt;/p&gt;
 
 &lt;p&gt;We are looking forward to finalizing our plan, and abstract for submission on Friday. #TeamFloriduh&lt;/p&gt;
@@ -28,10 +28,10 @@
     
     <item>
       <title>First Insights</title>
-      <link>http://teamfloriduh.com/2014/04/13/demographics/</link>
-      <pubDate>Sun, 13 Apr 2014 00:00:00 +0000</pubDate>
+      <link>http://teamfloriduh.com/2014/04/18/demographics/</link>
+      <pubDate>Fri, 18 Apr 2014 00:00:00 +0000</pubDate>
       <author></author>
-      <guid>http://teamfloriduh.com/2014/04/13/demographics</guid>
+      <guid>http://teamfloriduh.com/2014/04/18/demographics</guid>
       <description>&lt;p&gt;Setting a benchmark understanding about how larger datasets behave can be difficult, especially when using new tools and technology. It’s important to get some basic clustering and visualization to understand the big picture before diving in. Today, we tested a few hypotheses that we could &lt;em&gt;reasonably&lt;/em&gt; expect to prove positive.&lt;/p&gt;
 
 &lt;p&gt;We want to make sure there are no surprises with the base case before adding on layers of complexity or information sets. For this initial investigation, we pushed the CMS data into a SQLite database, and ran some basic analysis with the R programing language. Specifically, we looked at the Medicare reimbursements and how they related to provider sex, age and race.&lt;/p&gt;
@@ -45,10 +45,10 @@
     
     <item>
       <title>First Look</title>
-      <link>http://teamfloriduh.com/2014/04/11/first-look/</link>
-      <pubDate>Fri, 11 Apr 2014 00:00:00 +0000</pubDate>
+      <link>http://teamfloriduh.com/2014/04/13/first-look/</link>
+      <pubDate>Sun, 13 Apr 2014 00:00:00 +0000</pubDate>
       <author></author>
-      <guid>http://teamfloriduh.com/2014/04/11/first-look</guid>
+      <guid>http://teamfloriduh.com/2014/04/13/first-look</guid>
       <description>&lt;p&gt;Last week (April 9, 2014) CMS continued showing unprecedented transparency by releasing &lt;a href='https://www.cms.gov/Research-Statistics-Data-and-Systems/Statistics-Trends-and-Reports/Medicare-Provider-Charge-Data/Physician-and-Other-Supplier.html'&gt;Medicare payer information data&lt;/a&gt; for the 2012 year. This dataset, 9M records in total, includes physician names and addresses in addition to CPT code frequencies over 10. For patient data security, it does not include payment data for less frequent treatments. Chances are, if you are a physician who has provided care to a medicare recipient in 2012, your billing information is included.&lt;/p&gt;
 
 &lt;p&gt;This government data disclosure has &lt;a href='http://www.healthcarefinancenews.com/news/doctors-protest-CMS-data-release'&gt;raised plenty of eyebrows&lt;/a&gt;, particularly from physicians and provider advocates.&lt;/p&gt;
@@ -70,10 +70,10 @@
     
     <item>
       <title>Hello World!</title>
-      <link>http://teamfloriduh.com/2014/04/08/hello-world/</link>
-      <pubDate>Tue, 08 Apr 2014 00:00:00 +0000</pubDate>
+      <link>http://teamfloriduh.com/2014/04/11/hello-world/</link>
+      <pubDate>Fri, 11 Apr 2014 00:00:00 +0000</pubDate>
       <author></author>
-      <guid>http://teamfloriduh.com/2014/04/08/hello-world</guid>
+      <guid>http://teamfloriduh.com/2014/04/11/hello-world</guid>
       <description>&lt;p&gt;The 2014 &lt;a href='http://www.healthdataconsortium.org/'&gt;HealthDataConsortium’s&lt;/a&gt; HealthDataPalooza is this June in DC, and the Code-a-thon was launched last with week. This year &lt;a href='http://www.healthdataconsortium.org/challenges/announcing-the-code-a-palooza-challenge-at-health-datapalooza-2014'&gt;the focus&lt;/a&gt; is on how independant developers can leverage the massive &lt;a href='https://www.cms.gov/Research-Statistics-Data-and-Systems/Statistics-Trends-and-Reports/Medicare-Provider-Charge-Data/Physician-and-Other-Supplier.html'&gt;CMS patient claims and physician reimbursement data&lt;/a&gt; recently released.&lt;/p&gt;
 
 &lt;p&gt;Already many journalists and &lt;a href='http://omni.docgraph.org/'&gt;health data junkies&lt;/a&gt; have already started pouring through the nearly 9 million records looking for trends and insights that may benefit patients, payers and providers alike.&lt;/p&gt;
