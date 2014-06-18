@@ -6,9 +6,32 @@
     <atom:link href="http://teamfloriduh.com/feed.xml" rel="self" type="application/rss+xml" />
     <description></description>
     <language>en-us</language>
-    <pubDate>Wed, 21 May 2014 06:56:40 +0000</pubDate>
-    <lastBuildDate>Wed, 21 May 2014 06:56:40 +0000</lastBuildDate>
+    <pubDate>Wed, 18 Jun 2014 09:33:27 +0000</pubDate>
+    <lastBuildDate>Wed, 18 Jun 2014 09:33:27 +0000</lastBuildDate>
 
+    
+    
+    <item>
+      <title>Curtain Call</title>
+      <link>http://teamfloriduh.com/2014/06/03/postmortem/</link>
+      <pubDate>Tue, 03 Jun 2014 00:00:00 +0000</pubDate>
+      <author></author>
+      <guid>http://teamfloriduh.com/2014/06/03/postmortem</guid>
+      <description>&lt;p&gt;It has been an insane month, but amazing at the same time.&lt;/p&gt;
+
+&lt;p&gt;This year’s Health Data Consortium’s &lt;a href=&quot;http://healthdatapalooza.org&quot;&gt;HealthDatapalooza&lt;/a&gt; was a resounding success, and the &lt;a href=&quot;http://healthdatapalooza.org/agenda/code-a-palooza-challenges/&quot;&gt;Code-A-Palooza&lt;/a&gt; challenge was no exception. Out of 60 team applications and 10 finalists, 3 teams were chosen as the 2014 winners taking home $35,000 in cash prizes. The three winners, &lt;a href=&quot;http://lyfechannel.com/&quot;&gt;Lyfechannel&lt;/a&gt;, &lt;a href=&quot;https://www.accordionhealth.com/&quot;&gt;Accordion Health&lt;/a&gt;, and &lt;a href=&quot;http://www.karmadata.com/&quot;&gt;Karmadata&lt;/a&gt; each applied the CMS Provider Utilization data set in unique, sophisticated, and novel ways with beautifully designed dashboards and patient centric data visualizations.&lt;/p&gt;
+
+&lt;p&gt;While we are thrilled to make it to the finals for the live app demo, unfortunately &lt;a href=&quot;http://www.teamfloriduh.com&quot;&gt;TeamFloriduh&lt;/a&gt; did not place.We did however gain the opportunity to work with a number of other open health data developer groups attending HealthDatapalooza and we look forward to these future partnerships. Our current platform integration plans range from social health insights to ACO mapping, population health management, and more. Additionally, we are allocating resources for FOIA requests to gain access to more open government health data sets. As a community effort, questions, comments, suggestions, and critiques are more than welcomed. Our growing platform is first and foremost for patients, consumers, caretakers, and data junkies like you.&lt;/p&gt;
+
+&lt;p&gt;On a more personal note, we set out for this to be a community event, something that the social healthIT crowd could rally behind. We raised nearly &lt;a href=&quot;http://www.medstartr.com/projects/370-send-team-floriduh-to-the-code-a-palooza-finals-and-help-to-fillthevoid&quot;&gt;$6k through Medstartr&lt;/a&gt; and other donationation, and collaborated with countless friends, family and colleagues to put together a true community effort. We wanted to reach people outside of the healthcare community and show them the interesting and innovative projects coming out of private and public collaboration. The good parts of our health tech don’t get nearly enough credit, and public outreach for projects like BlueButton, Direct, and open data sets are non existant. Today, two months after all this started, I have my cousin’s uncle’s brother’s father calling me up, and asking me about electronic health data access through the VA. People I hardly know are taking an interest in open health data, and that alone is a huge win.&lt;/p&gt;
+
+&lt;p&gt;On a technical note, we really wanted to focus on data visualizations, not dashboards, sliders and d3js, so all the data analysis was done in R programing language, and python for the visualization. You can see our &lt;a href=&quot;http://www.slideshare.net/laurenstill/team-floriduh-health-datapalooza-codeathon-presentation&quot;&gt;deck here&lt;/a&gt; and some sample hi-res renderings &lt;a href=&quot;http://imgur.com/a/hoTgK&quot;&gt;here&lt;/a&gt;, and as always, our &lt;a href=&quot;https://github.com/laurenstill?tab=repositories&quot;&gt;code is open sourced&lt;/a&gt;. The rest of the website will be updated, with all the live renderings and some more functionality in the near future.&lt;/p&gt;
+
+&lt;p&gt;None of this would have been remotely possible without the help and support of the #HITsm community, and for that we are incredibly grateful. Thank you letters/perks/etc are in the mail, I promise! Everyone talking about how hard the “tech” problems are in healthcare, but it really boils down to personalities and politics. The community collaboration on this project gives me much hope for the forward progress of our healthcare system. We look forward to working with others in the open health data space, and as always welcome anyone who wishes to contribute however they may.&lt;/p&gt;
+
+&lt;p&gt;And, as always, a very special thanks to both Mandi and Nick who brought talent, insight and energy in spades. It was an honor to work with such brilliant teammates, there are no words that can truly express my gratitude for their selfless contributions to this project both personally and professionally. Thank you.&lt;/p&gt;</description>
+    </item>
+    
     
     
     <item>
