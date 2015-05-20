@@ -1,44 +1,36 @@
+
 <!DOCTYPE html>
 <html>
 <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% if page.title %}{{ page.title }} &mdash; {{ site.inc.title }}{% else %}{{ site.inc.title }} &mdash; {{ site.inc.subtitle }}{% endif %}</title>
+    <title>#TeamFloriduh &mdash; 2014 HealthDatapalooza</title>
 
 
+    <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="/assets/main.css">
 
-    <link href="https://fonts.googleapis.com/css?family={{ site.inc.google_font }}" rel="stylesheet" type="text/css">
-<link href="https://fonts.googleapis.com/css?family={{ site.inc.google_font }}" rel="stylesheet" type="text/css">
-    {% stylesheet main %}
 
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-    <link rel="apple-touch-icon" href="/images/{{ site.inc.logo }}"/>
-    <link href="{{ site_url }}/feed.xml" rel="alternate" type="application/rss+xml" title="{{ site.inc.title }}" />
-    <meta name="title" content="{% if page.title %}{{ page.title }} {% else %}{{ site.inc.title }}{% endif %}">
-    <link rel="canonical" href="{{ site.url }}{{ page.url }}">
-    {% if page.site.gplus %}<link rel="publisher" href="https://plus.google.com/{{ site.inc.gplus }}">{% endif %} 
-    {% if page.author.gplus %}<link rel="author" href="https://plus.google.com/{{ page.author.gplus }}">{% endif %}       
-    <meta property="og:title" content="{% if page.title %}{{ page.title }} {% else %}{{ site.inc.title }}{% endif %}"/>
-    <meta property="og:url" content="{{ site.url }}{{ page.url }}"/>
-    {% if page.cover_image %}
-    <meta property="og:image" content="{{ site.url }}/images/{{ page.cover_image }}"/>
-    {% if page.main_image %}
-    <meta property="og:image" content="{{ site.url }}/images/{{ page.main_image }}"/>  
-    {% endif %}
-    <meta property="og:image" content="{{ site.url }}/images/{{ site.inc.logo }}"/>   
-    {% endif %}
-    {% if page.excerpt %}
-    <meta property="og:description" content="{{ page.excerpt }}"/>
-    <meta name="description" content="{{ page.excerpt }}"/>
-    {% endif %}
-    <meta property="og:site_name" content="{{ site.inc.title }}"> 
-
+    <link rel="apple-touch-icon" href="/images/logo.png"/>
+    <link href="/feed.xml" rel="alternate" type="application/rss+xml" title="#TeamFloriduh" />
+    <meta name="title" content="#TeamFloriduh">
+    <link rel="canonical" href="http://teamfloriduh.com/">
+     
+           
+    <meta property="og:title" content="#TeamFloriduh"/>
+    <meta property="og:url" content="http://teamfloriduh.com/"/>
+    
+    
+    <meta property="og:site_name" content="#TeamFloriduh">  
+    <link rel="stylesheet" href="https://d1hjm33yswheja.cloudfront.net/CACHE/css/34411da7e681.css" type="text/css" />   
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-
 
 </head>
 <body>
     
+
+
 <section class="site-nav">
     <header>
         <nav id="navigation">
@@ -51,10 +43,12 @@
             <a href="/about" class="about">Team</a>
             <a href="/resources" class="resources">Resources</a>
 
+           <!-- <a href="0.0.0.0:4000/app">App</a>
+            <a href="0.0.0.0:4000/about/">About</a> -->
         </nav>
 
 
-        <nav class="tagline">
+            <nav class="tagline">
             
             
 
@@ -67,11 +61,10 @@
     
     <section>
         <div class="container">
-            <h1>#TeamFloriduh</h1>
-            <h3>Part of the FloriData Foundation</h3>
-        
-            
-            <a href="https://twitter.com/teamfloriduh" title="Follow on Twitter" target="_blank"><i class="fa fa-twitter"></i></a>
+            <h1>FloriData Foundation</h1>
+            <h3>Dedicated to Open Health Data Education</h3>
+
+             <a href="https://twitter.com/teamfloriduh" title="Follow on Twitter" target="_blank"><i class="fa fa-twitter"></i></a>
         
             
             <a href="https://github.com/laurenstill/teamfloriduh" title="Fork on Github" target="_blank"><i class="fa fa-github"></i></a>
@@ -80,45 +73,40 @@
         </div>
     </section>
 </div>
+
+
+
 </div>
 
+<section class="container">
+<br><br><br>
+<p> The manifesto goes here.</p>
 
 
-{{ content }}
+</section>
+
+
+
+
+
 
 
 
 <footer class="site-footer">
-
-<!--
-  <div align="center">
-    <h3>A very special thanks to those who helped sponsor TeamFloriduh, along with many more individuals.</h3>
-</div><br>
-<div align="center">
-     <img src="/images/hdplogosm.png" alt="sponsors">  
-</div>  
--->
-    <div class="container">
-        &copy; 2015 TeamFloriduh
-
+         <div class="container">
+             &copy; 2014 TeamFloriduh
             <a href="/">Blog</a> &middot;
             <a href="/projects">Projects</a> &middot;
             <a href="/app">Workbench</a> &middot;
             <a href="/about">About</a> &middot;
             <a href="/resources">Resources</a>
-        
-        <nav class="social">
-            <a href="https://twitter.com/teamfloriduh" title="Follow on Twitter" target="_blank"><i class="fa fa-twitter"></i></a>
+            <nav class="social">
+                <a href="https://twitter.com/teamfloriduh" title="Follow on Twitter" target="_blank"><i class="fa fa-twitter"></i></a>
             <a href="https://github.com/laurenstill/teamfloriduh" title="Fork on Github" target="_blank"><i class="fa fa-github"></i></a>
             <a href="https://www.cms.gov/Research-Statistics-Data-and-Systems/Statistics-Trends-and-Reports/Medicare-Provider-Charge-Data/Physician-and-Other-Supplier.html" title="View the Data" target="_blank"><i class="fa fa-cog"></i></a>
-        </nav>
-    </div>
+            </nav>
+        </div>
 </footer>
-
-{% include _scripts.html %}
-
-
-</body>
 </html>
 
 <script>
