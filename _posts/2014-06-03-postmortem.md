@@ -30,6 +30,10 @@ None of this would have been remotely possible without the help and support of t
 
 And, as always, a very special thanks to both Mandi and Nick who brought talent, insight and energy in spades. It was an honor to work with such brilliant teammates, there are no words that can truly express my gratitude for their selfless contributions to this project both personally and professionally. Thank you.
 
+<hr>
+<hr>
+“Happiness cannot be traveled to, owned, earned, worn or consumed. Happiness is the spiritual experience of living every minute with love, grace, and gratitude." ― Robert A. Rice Jr.
+
 
 
 [1]: https://www.cms.gov/Research-Statistics-Data-and-Systems/Statistics-Trends-and-Reports/Medicare-Provider-Charge-Data/Physician-and-Other-Supplier.html

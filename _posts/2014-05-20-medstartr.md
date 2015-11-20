@@ -31,6 +31,12 @@ Saint Johns, FL 32259
 (904) 626-1633
 
 
+<hr>
+<hr>
+“An entrepreneur without funding is a musician without an instrument.” ― Robert A. Rice Jr.
+
+
+
 [1]: http://www.twitter.com/teamfloriduh
 [2]:http://www.medstartr.com/projects/370-send-team-floriduh-to-the-code-a-palooza-finals-and-help-to-fillthevoid 
 [3]: http://www.healthdataconsortium.org
