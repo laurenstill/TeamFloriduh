@@ -3,7 +3,7 @@
 <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Data Toolkit &mdash; #TeamFloriduh</title>
+    <title>AshleyMadison &amp; Provider Rx Data &mdash; #TeamFloriduh</title>
 
 
 
@@ -14,20 +14,20 @@
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
     <link rel="apple-touch-icon" href="/images/logo.png"/>
     <link href="/feed.xml" rel="alternate" type="application/rss+xml" title="#TeamFloriduh" />
-    <meta name="title" content="Data Toolkit ">
-    <link rel="canonical" href="http://teamfloriduh.com/2014/04/20/tools/">
+    <meta name="title" content="AshleyMadison &amp; Provider Rx Data ">
+    <link rel="canonical" href="http://teamfloriduh.com/2015/10/18/am-rx-mashup/">
      
     <link rel="author" href="https://plus.google.com/+LaurenStill">       
-    <meta property="og:title" content="Data Toolkit "/>
-    <meta property="og:url" content="http://teamfloriduh.com/2014/04/20/tools/"/>
+    <meta property="og:title" content="AshleyMadison &amp; Provider Rx Data "/>
+    <meta property="og:url" content="http://teamfloriduh.com/2015/10/18/am-rx-mashup/"/>
     
     <meta property="og:image" content="http://teamfloriduh.com/images/blog-cover.jpg"/>
     
     <meta property="og:image" content="http://teamfloriduh.com/images/logo.png"/>   
     
     
-    <meta property="og:description" content="An ongoing list of tools and technology, and educational resources necessary to get started with public data analysis. TL;DR Not a tutorial, but pretty close."/>
-    <meta name="description" content="An ongoing list of tools and technology, and educational resources necessary to get started with public data analysis. TL;DR Not a tutorial, but pretty close."/>
+    <meta property="og:description" content="There’s a pretty substantial link between unethical behavior A and unethical behavior B. And so... TL;DR What can we learn from completely unrelated datasets?"/>
+    <meta name="description" content="There’s a pretty substantial link between unethical behavior A and unethical behavior B. And so... TL;DR What can we learn from completely unrelated datasets?"/>
     
     <meta property="og:site_name" content="#TeamFloriduh"> 
 
@@ -88,18 +88,26 @@
         <header>
             <div class="meta">
                 By <address><a rel="author" href="" title="Lauren Still" target="_blank">Lauren Still</a></address> &mdash;
-                <time pubdate datetime="2014-20-April" title="April 20, 2014">April 20, 2014</time>
+                <time pubdate datetime="2015-18-October" title="October 18, 2015">October 18, 2015</time>
             </div>
-            <h1 class="title">Data Toolkit</h1>
-            <h2 class="subtitle">...Everything's a Nail When You Have a Hammer.</h2>
+            <h1 class="title">AshleyMadison &amp; Provider Rx Data</h1>
+            <h2 class="subtitle">Hypotheses can be hard to come by….</h2>
         </header>
 
        <section>
-            <p>Short post for now, but we are building a collection of resources and tools to help others learn and understand what we have done, and the technology behind it. This will be cataloged under the <a href="http://www.teamfloriduh.com/resources">Resources</a> section of this site. Hopefully, as we progress, will be be able to include tutorials, and examples based on the available Medicare data.</p>
+            <p>So by now the <a href="http://www.hydraze.org/2015/08/ashley-madison-full-dump-has-finally-leaked/">Ashley Madison hack</a> and subsequent <a href="http://www.wired.com/2015/08/happened-hackers-posted-stolen-ashley-madison-data/">data leak</a> is old news for most. If you’re still concerned, head over to Troy Hunts’ <a href="https://haveibeenpwned.com/">Have I Been Pwned</a> page and check if your info somehow ended up in the dump. In short, due to a coding error where passwords were hashed with both <a href="http://arstechnica.com/security/2015/09/once-seen-as-bulletproof-11-million-ashley-madison-passwords-already-cracked/">bcrypt and md5</a>, a <em>compressed</em> 10 gigabyte encrypted file of data containing some 11 million passwords was eventually leaked. It contained some 33 million accounts and associated personal information (not just names, passwords, addresses and phone numbers, credit card information, but <a href="http://www.theverge.com/2015/8/19/9179037/ashley-madison-data-hack-name-address-phone-birthday">personal sexual preferences, objectives, fantasies, chats, graphic pictures</a>, etc.) was included in the data dump. Registered emails weren’t validated so a number of those were of the deathstar.gov variety. It’s <a href="http://www.columnfivemedia.com/the-ashley-madison-hack-in-8-charts">estimated</a> that about ⅔ of the emails are legit, but to date, that’s still just an estimate. Breaking it down further, some <a href="http://pastebin.com/U4QQEaBE">15,000 are .mil. or .gov addresses</a>, and a substantial number of <a href="http://news.nationalpost.com/news/ashley-madison-data-leak-who-has-been-exposed-and-what-are-the-implications">legit business domains</a> appear suspect.</p>
 
-<p>We are looking forward to finalizing our plan, and abstract for submission on Friday. #TeamFloriduh</p>
+<p>But enough about that. Old news, and a soapbox lecture for basic user account security is best saved for another day. Today I’d rather spend time looking at patterns between behaviors, addictions and links between vices. I’m just going on anecdotal evidence, but I’m sure there’s something in pubmed supporting <a href="http://www.ncbi.nlm.nih.gov/pubmed/?term=cross+addiction">cross-addition</a>, particularly as it comes to sex and drugs.</p>
+
+<p>And that’s where the recent CMS Medicare <a href="https://www.cms.gov/Research-Statistics-Data-and-Systems/Statistics-Trends-and-Reports/Medicare-Provider-Charge-Data/Part-D-Prescriber.html">Provider Utilization and Payment Data: Part D Prescriber</a> dataset comes into play. A disclaimer is warranted here: the goal is not to ‘out’ any physician for their mere appearance of impropriety when it comes to moral grounds. What could be interesting in mashing up these two datasets is seeing what providers with statistically relevant prescribing habits (read: high outlier) also engaged in various vices. While the Ashley Madison leak makes it the simplest, crossing with other common vices would be the long term goal.</p>
+
+<p>So what could we learn, and how could we put this information into use to help at-risk providers and better protect patients? Could this type of data research lead to earlier mental and behavioral interventions and redirect provider roles to reduce risk? What implications would it have on general drug abuse populations in states like Florida that are notorious pill-mill destinations. More questions than answers.</p>
+
+<p>Right now, we don’t have a solid direction, only an understanding that any research must be done with the most diligent concern for privacy and confidentiality. Following our <a href="http://medicinex.stanford.edu/2015-glance/">Stanford MedX</a> and <a href="http://medicinex.stanford.edu/medx-symplur-2015/">Symplur Data Analytics Challenge</a> work on youth suicide prevention, it’s impossible not to notice the link between addiction, substance abuse, and impulsive behaviors.</p>
+
+<p>So for now we just have a lot of questions and are kicking around a few ideas. As always, we’re open to suggestions for approach or other guidance, because as of right now, we haven’t even settled on a hypothesis. Hopefully as we start digging we’ll have some trends to share with the community and a better sense of direction and purpose.</p>
 <hr /><hr />
-<p>“The more I read, the more I acquire, the more certain I am that I know nothing.” ― Voltaire</p>
+<p>“Be at war with your vices, at peace with your neighbors, and let every new year find you a better man.” - Benjamin Franklin</p>
             <!--  -->
         </section>
 

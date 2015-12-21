@@ -6,9 +6,32 @@
     <atom:link href="http://teamfloriduh.com/feed.xml" rel="self" type="application/rss+xml" />
     <description></description>
     <language>en-us</language>
-    <pubDate>Sat, 21 Nov 2015 08:08:54 +0000</pubDate>
-    <lastBuildDate>Sat, 21 Nov 2015 08:08:54 +0000</lastBuildDate>
+    <pubDate>Sun, 22 Nov 2015 04:55:37 +0000</pubDate>
+    <lastBuildDate>Sun, 22 Nov 2015 04:55:37 +0000</lastBuildDate>
 
+    
+    
+    <item>
+      <title>AshleyMadison &amp; Provider Rx Data</title>
+      <link>http://teamfloriduh.com/2015/10/18/am-rx-mashup/</link>
+      <pubDate>Sun, 18 Oct 2015 00:00:00 +0000</pubDate>
+      <author></author>
+      <guid>http://teamfloriduh.com/2015/10/18/am-rx-mashup</guid>
+      <description>&lt;p&gt;So by now the &lt;a href=&quot;http://www.hydraze.org/2015/08/ashley-madison-full-dump-has-finally-leaked/&quot;&gt;Ashley Madison hack&lt;/a&gt; and subsequent &lt;a href=&quot;http://www.wired.com/2015/08/happened-hackers-posted-stolen-ashley-madison-data/&quot;&gt;data leak&lt;/a&gt; is old news for most. If you’re still concerned, head over to Troy Hunts’ &lt;a href=&quot;https://haveibeenpwned.com/&quot;&gt;Have I Been Pwned&lt;/a&gt; page and check if your info somehow ended up in the dump. In short, due to a coding error where passwords were hashed with both &lt;a href=&quot;http://arstechnica.com/security/2015/09/once-seen-as-bulletproof-11-million-ashley-madison-passwords-already-cracked/&quot;&gt;bcrypt and md5&lt;/a&gt;, a &lt;em&gt;compressed&lt;/em&gt; 10 gigabyte encrypted file of data containing some 11 million passwords was eventually leaked. It contained some 33 million accounts and associated personal information (not just names, passwords, addresses and phone numbers, credit card information, but &lt;a href=&quot;http://www.theverge.com/2015/8/19/9179037/ashley-madison-data-hack-name-address-phone-birthday&quot;&gt;personal sexual preferences, objectives, fantasies, chats, graphic pictures&lt;/a&gt;, etc.) was included in the data dump. Registered emails weren’t validated so a number of those were of the deathstar.gov variety. It’s &lt;a href=&quot;http://www.columnfivemedia.com/the-ashley-madison-hack-in-8-charts&quot;&gt;estimated&lt;/a&gt; that about ⅔ of the emails are legit, but to date, that’s still just an estimate. Breaking it down further, some &lt;a href=&quot;http://pastebin.com/U4QQEaBE&quot;&gt;15,000 are .mil. or .gov addresses&lt;/a&gt;, and a substantial number of &lt;a href=&quot;http://news.nationalpost.com/news/ashley-madison-data-leak-who-has-been-exposed-and-what-are-the-implications&quot;&gt;legit business domains&lt;/a&gt; appear suspect.&lt;/p&gt;
+
+&lt;p&gt;But enough about that. Old news, and a soapbox lecture for basic user account security is best saved for another day. Today I’d rather spend time looking at patterns between behaviors, addictions and links between vices. I’m just going on anecdotal evidence, but I’m sure there’s something in pubmed supporting &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/?term=cross+addiction&quot;&gt;cross-addition&lt;/a&gt;, particularly as it comes to sex and drugs.&lt;/p&gt;
+
+&lt;p&gt;And that’s where the recent CMS Medicare &lt;a href=&quot;https://www.cms.gov/Research-Statistics-Data-and-Systems/Statistics-Trends-and-Reports/Medicare-Provider-Charge-Data/Part-D-Prescriber.html&quot;&gt;Provider Utilization and Payment Data: Part D Prescriber&lt;/a&gt; dataset comes into play. A disclaimer is warranted here: the goal is not to ‘out’ any physician for their mere appearance of impropriety when it comes to moral grounds. What could be interesting in mashing up these two datasets is seeing what providers with statistically relevant prescribing habits (read: high outlier) also engaged in various vices. While the Ashley Madison leak makes it the simplest, crossing with other common vices would be the long term goal.&lt;/p&gt;
+
+&lt;p&gt;So what could we learn, and how could we put this information into use to help at-risk providers and better protect patients? Could this type of data research lead to earlier mental and behavioral interventions and redirect provider roles to reduce risk? What implications would it have on general drug abuse populations in states like Florida that are notorious pill-mill destinations. More questions than answers.&lt;/p&gt;
+
+&lt;p&gt;Right now, we don’t have a solid direction, only an understanding that any research must be done with the most diligent concern for privacy and confidentiality. Following our &lt;a href=&quot;http://medicinex.stanford.edu/2015-glance/&quot;&gt;Stanford MedX&lt;/a&gt; and &lt;a href=&quot;http://medicinex.stanford.edu/medx-symplur-2015/&quot;&gt;Symplur Data Analytics Challenge&lt;/a&gt; work on youth suicide prevention, it’s impossible not to notice the link between addiction, substance abuse, and impulsive behaviors.&lt;/p&gt;
+
+&lt;p&gt;So for now we just have a lot of questions and are kicking around a few ideas. As always, we’re open to suggestions for approach or other guidance, because as of right now, we haven’t even settled on a hypothesis. Hopefully as we start digging we’ll have some trends to share with the community and a better sense of direction and purpose.&lt;/p&gt;
+&lt;hr /&gt;&lt;hr /&gt;
+&lt;p&gt;“Be at war with your vices, at peace with your neighbors, and let every new year find you a better man.” - Benjamin Franklin&lt;/p&gt;</description>
+    </item>
+    
     
     
     <item>
@@ -150,7 +173,7 @@
       <pubDate>Sun, 20 Apr 2014 00:00:00 +0000</pubDate>
       <author></author>
       <guid>http://teamfloriduh.com/2014/04/20/tools</guid>
-      <description>&lt;p&gt;Short post for now, but we are building a collection of resources and tools to help others learn and understand what we have done, and the technology behind it. This will be cataloged under the &lt;a href='teamfloriduh.com/resources'&gt;Resources&lt;/a&gt; section of this site. Hopefully, as we progress, will be be able to include tutorials, and examples based on the available Medicare data.&lt;/p&gt;
+      <description>&lt;p&gt;Short post for now, but we are building a collection of resources and tools to help others learn and understand what we have done, and the technology behind it. This will be cataloged under the &lt;a href=&quot;http://www.teamfloriduh.com/resources&quot;&gt;Resources&lt;/a&gt; section of this site. Hopefully, as we progress, will be be able to include tutorials, and examples based on the available Medicare data.&lt;/p&gt;
 
 &lt;p&gt;We are looking forward to finalizing our plan, and abstract for submission on Friday. #TeamFloriduh&lt;/p&gt;
 &lt;hr /&gt;&lt;hr /&gt;
